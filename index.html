@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080708">
+  <meta name="description" content="Azuhari — personal portfolio. Roblox game developer and creative builder.">
+  <title>Azuhari — Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Azuhari home">
+      <span class="brand-kanji">忍</span>
+      <span class="brand-line"></span>
+    </a>
+    <nav class="desktop-nav">
+      <a class="nav-link active" href="#home">HOME</a>
+      <a class="nav-link" href="#about">ABOUT</a>
+      <a class="nav-link" href="#skills">SKILLS</a>
+      <a class="nav-link" href="#contact">CONTACT</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-bg">
+        <div class="red-orb orb-one"></div>
+        <div class="red-orb orb-two"></div>
+        <div class="brush brush-one"></div>
+        <div class="brush brush-two"></div>
+        <div class="crow crow-a">◆</div>
+        <div class="crow crow-b">◆</div>
+        <div class="crow crow-c">◆</div>
+      </div>
+
+      <div class="hero-title" aria-hidden="true">
+        <span>ア</span><span>ズ</span><span>ハ</span><span>リ</span>
+      </div>
+
+      <div class="hero-character">
+        <img src="assets/itachi-cutout.png" alt="Dark-haired anime-inspired character">
+      </div>
+
+      <div class="hero-copy">
+        <p class="eyebrow">PERSONAL PORTFOLIO</p>
+        <h1>AZUHARI</h1>
+        <p class="hero-sub">DREAM <i>/</i> CREATE <i>/</i> REPEAT</p>
+      </div>
+
+      <a class="scroll-cue" href="#about">
+        <span class="mouse"><i></i></span>
+        <span>SCROLL DOWN</span>
+      </a>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="section-kicker">ABOUT ME</div>
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="visual-frame"></div>
+          <img src="assets/itachi-cutout.png" alt="Character portrait">
+          <span class="vertical-jp">アズハリ</span>
+        </div>
+        <div class="about-copy">
+          <p class="mini-label">01 — INTRODUCTION</p>
+          <h2>Hello, I'm <em>Azuhari</em></h2>
+          <p>
+            I’m a creative developer who enjoys turning ideas into playable experiences,
+            especially in Roblox. I like building worlds, designing systems, and making
+            interfaces feel polished without losing personality.
+          </p>
+          <div class="signature">DREAM&nbsp;&nbsp;/&nbsp;&nbsp;CODE&nbsp;&nbsp;/&nbsp;&nbsp;CREATE</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section">
+      <div class="section-kicker">MY SKILLS</div>
+      <div class="skills-heading">
+        <div>
+          <p class="mini-label">02 — WHAT I DO</p>
+          <h2>Things I <span>Build</span></h2>
+        </div>
+        <p class="heading-note">Creative work, game systems and digital experiences.</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">R</div>
+        <div class="skill-main">
+          <h3>Roblox Game Development</h3>
+          <p>Building interactive games with Roblox Studio, Lua scripting, UI and world design.</p>
+        </div>
+        <ul>
+          <li>Game Design</li>
+          <li>Lua Scripting</li>
+          <li>World Building</li>
+          <li>UI / UX</li>
+        </ul>
+      </div>
+
+      <div class="skill-strip">
+        <span>01</span><span>GAMEPLAY</span><span>02</span><span>SYSTEMS</span><span>03</span><span>DESIGN</span>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="contact-bg">
+        <div class="torii"></div>
+        <div class="moon"></div>
+      </div>
+      <div class="contact-content">
+        <div class="section-kicker">CONTACT</div>
+        <p class="mini-label">03 — LET'S CONNECT</p>
+        <h2>Have an idea?<br><span>Let’s build it.</span></h2>
+        <p class="contact-text">Feel free to reach out for collaboration, projects, or just to say hi.</p>
+        <a class="social-button" href="https://www.tiktok.com/@zharsfs" target="_blank" rel="noopener">
+          <span class="social-icon">↗</span>
+          <span>TikTok</span>
+          <b>@zharsfs</b>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <nav class="mobile-nav" aria-label="Section navigation">
+    <a class="mobile-link active" href="#home"><span>⌂</span>Home</a>
+    <a class="mobile-link" href="#about"><span>◉</span>About</a>
+    <a class="mobile-link" href="#skills"><span>✦</span>Skills</a>
+    <a class="mobile-link" href="#contact"><span>✉</span>Contact</a>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
